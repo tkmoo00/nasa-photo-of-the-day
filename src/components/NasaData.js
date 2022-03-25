@@ -5,8 +5,8 @@ export const NasaData = (props) => {
     <div>
       <h1>{props.photo.title}</h1>
       <p>{props.photo.date}</p>
-      <img src={props.photo.hdurl} />
-      <p>{props.photo.info}</p>
+      <img alt="" src={props.photo.hdurl} />
+      <p className="info">{props.photo.explanation}</p>
     </div>
   );
 };
